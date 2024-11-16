@@ -60,7 +60,7 @@ export function Services() {
       className="mt-10 lg:mt-[150px] flex flex-col relative px-4"
       id="service"
     >
-      <h2 className="text-center text-4xl md:text-6xl font-bold text-black dark:text-white/80">
+      <h2 className="text-center text-4xl md:text-6xl font-bold text-black dark:text-white/70">
         Global Services <br /> <FlipWords words={words} /> <br />
       </h2>
       <Availability />
@@ -104,11 +104,9 @@ const Feature = ({ title, description, icon, index }) => {
       </div>
       <div className="text-lg font-bold mb-2 relative z-10 px-10">
         <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-neutral-300 dark:bg-neutral-700 group-hover/feature:bg-blue-500/50 transition-all duration-200 origin-center" />
-        <span className="inline-block text-neutral-800 dark:text-white/80">
-          {title}
-        </span>
+        <h2 className="text-neutral-800 dark:text-white/80 text-xl">{title}</h2>
       </div>
-      <p className="text-sm text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
+      <p className="text-base text-neutral-600 dark:text-neutral-300 max-w-xs relative z-10 px-10">
         {description}
       </p>
     </div>

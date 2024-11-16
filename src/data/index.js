@@ -4,7 +4,7 @@ export const projects = [
     title: "Steller",
     des: "Take advantage of our seemless UI to create a great project",
     img: "/steller1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://steller-nine.vercel.app/",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     title: "Kaiko - A fintech App",
     des: "Simplify your banking experience with Kaiko. Seamlessly connect and send to clients and friends.",
     img: "/kaiko.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "/ui.yoom.com",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     title: "AI Image SaaS - ",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/phoenix.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "gsap.svg"],
     link: "/ui.aiimg.com",
   },
   {

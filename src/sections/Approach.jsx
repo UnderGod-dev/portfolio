@@ -9,7 +9,7 @@ export function Approach() {
       content: (
         <div className="flex flex-col gap-7">
           <div className="">
-            <h4 className="text-[#f4f4f4] text-xl md:text-[1.8rem] font-semibold">
+            <h4 className="dark:text-neutral-500 text-xl md:text-[1.8rem] font-semibold">
               Planning & Strategy
             </h4>
 
@@ -33,7 +33,7 @@ export function Approach() {
       content: (
         <div className="flex flex-col gap-7">
           <div className="">
-            <h4 className="text-[#f4f4f4] text-xl md:text-[1.8rem] font-semibold">
+            <h4 className="dark:text-neutral-500 text-xl md:text-[1.8rem] font-semibold">
               Development & Implementation
             </h4>
             <ul className="text-neutral-800 dark:text-neutral-200 text-sm pt-4 font-normal mb-8 max-w-sm list-disc space-y-4">
@@ -57,7 +57,7 @@ export function Approach() {
       content: (
         <div className="flex flex-col gap-7">
           <div className="">
-            <h4 className="text-[#f4f4f4] text-xl md:text-[1.8rem] font-semibold">
+            <h4 className="dark:text-neutral-500 text-xl md:text-[1.8rem] font-semibold">
               Development & Optimization
             </h4>
             <ul className="text-neutral-800 dark:text-neutral-200 text-sm pt-4 font-normal mb-8 max-w-sm list-disc space-y-4">
