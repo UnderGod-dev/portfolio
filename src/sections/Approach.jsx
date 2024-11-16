@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 
-export function Resume() {
+export function Approach() {
   const data = [
     {
       title: "Phase 1",
@@ -78,12 +78,8 @@ export function Resume() {
     },
   ];
   return (
-    <div className="w-full relative bg-white dark:bg-neutral-950 font-sans md:px-10">
-      <h2 className="text-3xl md:text-5xl mb-4 text-black dark:text-white/80 max-w-4xl text-center mx-auto font-semibold px-4 pt-20">
-        My work approach
-      </h2>
+    <div className="w-full">
       <Timeline data={data} />
-      <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[2px] w-full absolute -bottom-[3vh]" />
     </div>
   );
 }

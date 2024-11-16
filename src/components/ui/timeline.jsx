@@ -27,6 +27,11 @@ export const Timeline = ({ data }) => {
       className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}
     >
+      <div className="max-w-7xl mx-auto pb-10 py-20 px-4 md:px-8 lg:px-10">
+        <h2 className="text-3xl md:text-5xl text-black dark:text-white/80 max-w-4xl text-center mx-auto font-semibold px-4">
+          My work approach
+        </h2>
+      </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
           <div
@@ -46,8 +51,7 @@ export const Timeline = ({ data }) => {
               <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
                 {item.title}
               </h3>
-              {item.content}
-              {""}
+              {item.content}{" "}
             </div>
           </div>
         ))}
@@ -62,7 +66,7 @@ export const Timeline = ({ data }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-blue-500/50 via-white/80 to-transparent from-[0%] via-[30%] rounded-full"
+            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
       </div>

@@ -35,15 +35,23 @@ export const projects = [
 
 export const socialMedia = [
   {
-    id: 1,
     img: "/git.svg",
+    href: "https://github.com/UnderGod-dev",
   },
   {
-    id: 2,
-    img: "/twit.svg",
+    img: "/x.svg",
+    href: "https://x.com/Talk2Hardeq",
   },
   {
-    id: 3,
     img: "/link.svg",
+    href: "/",
+  },
+  {
+    img: "/whatsapp.svg",
+    href: "/",
+  },
+  {
+    img: "/ig.svg",
+    href: "https://www.instagram.com/talk2hardeq",
   },
 ];

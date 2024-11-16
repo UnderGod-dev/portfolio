@@ -25,7 +25,7 @@ export function Testimonials() {
     },
     {
       quote:
-        "It's rare to trust someone you met on freelancing community to handle a large scale project for you, Kunle and his team didn't build just the project to perfection, they built a business relationship that's going to last forever with my company",
+        "It's rare to trust someone you met on freelancing community to handle a large scale project for you. Kunle and his team didn't build just the project to perfection, they built a business relationship that's going to last forever with my company",
       name: "Mavros Papadoupolos",
       designation: "CTO at Taxidi",
       src: "https://images.pexels.com/photos/3782183/pexels-photo-3782183.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -37,8 +37,8 @@ export function Testimonials() {
       id="testimonial"
     >
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-      <h2 className="text-3xl md:text-5xl mb-4 text-black dark:text-white max-w-4xl text-center mx-auto font-semibold px-4">
-        What my clients got to say
+      <h2 className="text-3xl md:text-5xl mb-4 text-black dark:text-white/80 max-w-4xl text-center mx-auto font-semibold px-4">
+        Clients Reviews
       </h2>
       <AnimatedTestimonials testimonials={testimonials} />
       <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[2px] w-full absolute -bottom-[3vh]" />

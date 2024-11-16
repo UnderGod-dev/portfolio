@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="grid lg:grid-cols-[1fr_0.6fr_0.4fr] gap-5 relative pt-20 lg:pt-12 max-w-screen-xl mx-auto min-h-screen">
         <div className="max-w-[600px] w-[90%] mx-auto py-[30px]">
           <div className="flex flex-col lg:justify-between h-[80%]">
-            <h2 className="">
+            <h2 className="lg:pt-20">
               <TextGenerateEffect
                 words={word}
                 className={
@@ -59,7 +59,7 @@ const HeroSection = () => {
         </div>
         <div className="w-[90%] mx-auto py-[30px] flex flex-col items-center lg:justify-between z-2">
           <div>
-            <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-lg md:text-2xl lg:text-4xl font-sans md:py-10 relative z-20 font-bold tracking-tight lg:mt-8 lg:text-right">
+            <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-lg md:text-2xl lg:text-4xl font-sans md:py-10 relative z-20 font-bold tracking-tight lg:mt-8 lg:text-right lg:pt-20">
               About Me
             </h2>
             <TextGenerateEffect
@@ -74,7 +74,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="relative">
-        <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[2px] w-full absolute bottom-0" />
+        <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[2px] w-full absolute bottom-0 lg:-bottom-8" />
       </div>
       <ShootingStars className={"z-[-1]"} />
       <StarsBackground className={"z-[-1]"} />

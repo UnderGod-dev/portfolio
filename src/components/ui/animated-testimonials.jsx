@@ -31,7 +31,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
   };
   return (
     <div className="max-w-sm md:max-w-4xl mx-auto antialiased font-sans px-4 md:px-8 lg:px-12 py-20">
-      <div className="relative grid grid-cols-1 md:grid-cols-2  gap-20">
+      <div className="relative grid grid-cols-1 md:grid-cols-2  gap-10 md:gap-20">
         <div>
           <div className="relative h-80 w-full">
             <AnimatePresence>
@@ -79,7 +79,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
             </AnimatePresence>
           </div>
         </div>
-        <div className="flex justify-between flex-col py-4 items-center md:items-start">
+        <div className="flex justify-between flex-col pt-2  md:py-4 items-center md:items-start">
           <motion.div
             key={active}
             initial={{
@@ -105,7 +105,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
             <p className="text-sm text-gray-500 dark:text-neutral-500">
               {testimonials[active].designation}
             </p>
-            <motion.p className="text-lg text-gray-500 mt-8 dark:text-neutral-300 h-[168px]">
+            <motion.p className="text-lg text-gray-500 mt-4 md:mt-8 dark:text-neutral-300 h-[168px]">
               {testimonials[active].quote.split(" ").map((word, index) => (
                 <motion.span
                   key={index}
