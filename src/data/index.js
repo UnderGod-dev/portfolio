@@ -13,7 +13,7 @@ export const projects = [
     des: "Simplify your banking experience with Kaiko. Seamlessly connect and send to clients and friends.",
     img: "/kaiko.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.yoom.com",
+    link: "https://kaiko.vercel.app/",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/phoenix.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "gsap.svg"],
-    link: "/ui.aiimg.com",
+    link: "/",
   },
   {
     id: 4,
