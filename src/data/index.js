@@ -1,11 +1,11 @@
 export const projects = [
   {
     id: 1,
-    title: "Estatery",
-    des: "A fullstack real estate website where you can search for properties, bookmark to your fav and chat with vendors",
-    img: "/estatery.png",
-    iconLists: ["/vite.svg", "/node.svg", "/js.svg", "/mongo.svg"],
-    link: "https://steller-nine.vercel.app/",
+    title: "Gericht",
+    des: "A Restaurant booking website with save, search, filter and delete meal functionality and react-redux for state-management and api",
+    img: "/gericht.png",
+    iconLists: ["/ts.svg", "/redux.svg", "/mongo.svg"],
+    link: "https://gericht-delta.vercel.app/",
   },
   {
     id: 2,
@@ -17,11 +17,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - ",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Phoenix-AI",
+    des: "A modern Saas landing page with cool animation fetaures",
     img: "/phoenix.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "gsap.svg"],
-    link: "/",
+    link: "https://phoenix-ai-neon.vercel.app/",
   },
   {
     id: 4,
