@@ -25,11 +25,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Steller",
-    des: "Take advantage of our seemless UI to create a great project",
-    img: "/steller1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://steller-nine.vercel.app/",
+    title: "Halsa",
+    des: "Halsa is a clean and minimal health and wellness app tailored for a diverse range of enterprises, including SaaS, startups, small businesses, technology firms, creative ventures, agencies, and beyond",
+    img: "/halsa.png",
+    iconLists: ["/vite.svg", "/tail.svg", "/js.svg"],
+    link: "https://halsa-eight.vercel.app/",
   },
 ];
 

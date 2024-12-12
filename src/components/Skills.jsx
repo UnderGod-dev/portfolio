@@ -5,12 +5,24 @@ import { cn } from "@/lib/utils";
 import { GoCopilot } from "react-icons/go";
 import Image from "next/image";
 
+const logos = [
+  "vite",
+  "tail",
+  "redux",
+  "next",
+  "re",
+  "node",
+  "mongo",
+  "js",
+  "ts",
+  "dock",
+  "postgre",
+  "mui",
+];
 export function Skills() {
   return (
-    <div className="flex flex-col mt-24 justify-start items-center">
-      <h3 className="text-xl -mb-12 md:-mb-24 font-bold text-neutral-200">
-        My Skills
-      </h3>
+    <div className=" mt-10 md:mt-0 flex flex-col justify-start items-center size-full">
+      <h3 className="text-xl font-bold text-neutral-200">My Skills</h3>
       <CardSkeletonContainer>
         <Skeleton />
       </CardSkeletonContainer>
@@ -72,29 +84,19 @@ const Skeleton = () => {
     });
   }, []);
   return (
-    <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
-      <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">
-        <Container className="h-8 w-8 circle-1">
-          <ClaudeLogo className="h-4 w-4 " />
-        </Container>
-        <Container className="h-12 w-12 circle-4">
-          <Image
-            src={"/next.svg"}
-            height={60}
-            width={60}
-            alt="ts"
-            className="size-full object-contain object-center"
-          />
-        </Container>
-        <Container className="circle-3">
-          <OpenAILogo className="h-8 w-8 dark:text-white" />
-        </Container>
-        <Container className="size-12 circle-4">
-          <MetaIconOutline className="h-6 w-6 " />
-        </Container>
-        <Container className="h-8 w-8 circle-5">
-          <GeminiLogo className="h-4 w-4 " />
-        </Container>
+    <div className="p-8 overflow-hidden h-full relative flex items-center justify-center w-full ">
+      <div className="grid grid-cols-4 justify-center items-center gap-8">
+        {logos.map((logo) => (
+          <Container className="size-10 md:size-16 circle-4" key={logo}>
+            <Image
+              src={`/${logo}.svg`}
+              height={80}
+              width={80}
+              alt="ts"
+              className="size-full object-contain object-center"
+            />
+          </Container>
+        ))}
       </div>
       <div className="h-40 w-px absolute top-20 m-auto z-40 bg-gradient-to-b from-transparent via-cyan-500 to-transparent animate-move">
         <div className="w-10 h-32 top-1/2 -translate-y-1/2 absolute -left-10">
@@ -187,7 +189,7 @@ export const CardSkeletonContainer = ({
   return (
     <div
       className={cn(
-        "h-[15rem] md:h-[20rem] rounded-xl z-40",
+        "rounded-xl z-40 w-full p-6",
         className,
         showGradient &&
           "bg-neutral-300 dark:bg-[rgba(40,40,40,0.70)] [mask-image:radial-gradient(50%_50%_at_50%_50%,white_0%,transparent_100%)]"
@@ -210,52 +212,5 @@ const Container = ({ className, children }) => {
     >
       {children}
     </div>
-  );
-};
-
-export const ClaudeLogo = ({ className }) => {
-  return (
-    <Image
-      src={"/ts.svg"}
-      height={60}
-      width={60}
-      alt="ts"
-      className="size-full object-contain object-center"
-    />
-  );
-};
-
-export const OpenAILogo = ({ className }) => {
-  return (
-    <Image
-      src={"/tail.svg"}
-      height={60}
-      width={60}
-      alt="ts"
-      className="size-full object-contain object-center"
-    />
-  );
-};
-export const GeminiLogo = ({ className }) => {
-  return (
-    <Image
-      src={"/git.svg"}
-      height={60}
-      width={60}
-      alt="ts"
-      className="size-full object-contain object-center"
-    />
-  );
-};
-
-export const MetaIconOutline = ({ className }) => {
-  return (
-    <Image
-      src={"/gsap.svg"}
-      height={60}
-      width={60}
-      alt="ts"
-      className="size-full object-contain object-center"
-    />
   );
 };

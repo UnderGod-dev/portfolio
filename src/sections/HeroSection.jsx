@@ -16,7 +16,7 @@ const HeroSection = () => {
     "I'm a passionate and versatile sofware developer with a focus on building dynamic websites and user-friendly mobile applications. With a strong foundation in both front-end and back-end technologies,";
   return (
     <div className="w-full overflow-x-hidden min-h-screen" id="about">
-      <div className="grid lg:grid-cols-[1fr_0.6fr_0.4fr] gap-5 relative pt-20 lg:pt-12 max-w-screen-xl mx-auto min-h-screen">
+      <div className="grid lg:grid-cols-2 gap-5 relative pt-20 lg:pt-12 max-w-screen-xl mx-auto min-h-screen">
         <div className="max-w-[600px] w-[90%] mx-auto py-[30px]">
           <div className="flex flex-col lg:justify-between h-[80%]">
             <h2 className="lg:pt-20">
@@ -48,7 +48,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-full items-end bg-[#0d0d0e70] hidden lg:flex">
+        <div className="w-full h-full items-end bg-[#0d0d0e70] hidden">
           <Image
             src={"/profile1.webp"}
             width={800}
@@ -69,8 +69,9 @@ const HeroSection = () => {
               }
             />
           </div>
-
-          <Skills />
+          <div className="w-full">
+            <Skills />
+          </div>
         </div>
       </div>
       <div className="relative">
