@@ -1,11 +1,19 @@
 export const projects = [
   {
     id: 1,
-    title: "Gericht",
-    des: "A Restaurant booking website with save, search, filter and delete meal functionality and react-redux for state-management and api",
-    img: "/gericht.png",
-    iconLists: ["/ts.svg", "/redux.svg", "/mongo.svg"],
-    link: "https://gericht-delta.vercel.app/",
+    title: "Homfort",
+    des: "A fullstack Real Estate agency website with role-based user access system that allows multiple role levels (Admin, Agent, Client)",
+    img: "/homfort.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/node.svg",
+      "/postgre.svg",
+      "/mui.svg",
+      "/dock.svg",
+    ],
+    link: "https://homfort.vercel.app/",
   },
   {
     id: 2,
@@ -16,12 +24,12 @@ export const projects = [
     link: "https://kaiko.vercel.app/",
   },
   {
-    id: 3,
-    title: "Phoenix-AI",
-    des: "A modern Saas landing page with cool animation fetaures",
-    img: "/phoenix.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "gsap.svg"],
-    link: "https://phoenix-ai-neon.vercel.app/",
+    id: 2,
+    title: "Gericht",
+    des: "A Restaurant booking website with save, search, filter and delete meal functionality and react-redux for state-management and api",
+    img: "/gericht.png",
+    iconLists: ["/ts.svg", "/redux.svg", "/mongo.svg"],
+    link: "https://gericht-delta.vercel.app/",
   },
   {
     id: 4,
