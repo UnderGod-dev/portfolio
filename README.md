@@ -43,11 +43,13 @@ The redesigned page can also be checked independently of legacy unused component
 npx next lint --file src/app/page.js --file src/app/layout.js --file src/app/opengraph-image.js --file src/app/api/contact/route.js --file src/components/portfolio/Portfolio.jsx --file src/data/profile.js
 ```
 
-## Deploy on Vercel
+## Deploy on Netlify
 
-Import the existing repository, select the Next.js framework preset, and add the SMTP environment variables to the Vercel project. The standard build command is `npm run build`; no custom output directory is required. Set variables separately for Preview and Production as needed.
+Import `UnderGod-dev/portfolio` from GitHub and deploy the `main` branch. `netlify.toml` sets Node.js 22, the `npm run build` command, the `.next` publish directory, and the canonical URL `https://adekunle.cloud`. Netlify automatically applies its Next.js adapter, including support for the contact API route. Do not use a static export: email delivery needs the server route.
 
-When the domain is ready, add it in the Vercel project’s Domains settings and apply the DNS records Vercel provides. Set `SITE_URL` to the full canonical URL (including `https://`) and redeploy. Until the custom domain is ready, leave `SITE_URL` unset in Vercel: metadata uses the Vercel production hostname, then the current Vercel deployment hostname. Local builds fall back to `https://adekunle.cloud`. Set `SITE_URL=https://adekunle.cloud` when the domain is connected. DNS and hosting are configured separately when the domain is ready.
+Add fresh `SENDER_USER`, `SENDER_PASS`, and `RECEIVER_USER` values in the project's environment variables and redeploy. Keep mail credentials out of this file and Git. Without these values, the site loads but the contact form returns an availability error with a LinkedIn fallback.
+
+Add `adekunle.cloud` in Netlify Domain management and apply the exact DNS records shown there in Hostinger. Preserve unrelated email records. Netlify provisions HTTPS once DNS verification succeeds. Keep the existing Free plan; no paid hosting or domain transfer is required.
 
 ## Logo directions
 
