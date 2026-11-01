@@ -55,7 +55,7 @@ export default function OpenGraphImage() {
           <span style={{ color: "#b5d58b" }}>Solid foundations.</span>
         </div>
         <div style={{ display: "flex", fontSize: 18, color: "#a3afa0" }}>
-          WarithAdekunle.com · AWS Certified Solutions Architect
+          adekunle.cloud · AWS Certified Solutions Architect
         </div>
       </div>
     ),

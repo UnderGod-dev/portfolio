@@ -990,7 +990,7 @@ export default function Portfolio() {
           <BrandMark className="footer-mark" viewBox="6 10 120 84" />
           Adekunle<span>.</span>
         </a>
-        <p className="mono">WARITHADEKUNLE.COM / BUILT WITH INTENT.</p>
+        <p className="mono">ADEKUNLE.CLOUD / BUILT WITH INTENT.</p>
         <span className="footer-copyright">© {new Date().getFullYear()}</span>
         <a href="#home" className="back-top" aria-label="Back to top">
           <ArrowUpRight size={18} />

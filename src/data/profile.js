@@ -2,7 +2,7 @@
 export const profile = {
   name: "Adekunle",
   fullName: "Warith Adekunle",
-  siteUrl: "https://warithadekunle.com",
+  siteUrl: "https://adekunle.cloud",
   role: "Cloud, DevOps & Systems Engineering",
   location: "EU & beyond",
   linkedin: "https://www.linkedin.com/in/warith-taofeek/",

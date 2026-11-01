@@ -151,7 +151,7 @@ export default function BrandStudio() {
                 <strong>
                   Adekunle<span>.</span>
                 </strong>
-                <span>WARITHADEKUNLE.COM</span>
+                <span>ADEKUNLE.CLOUD</span>
               </div>
             </div>
             <div className="brand-small-sizes">

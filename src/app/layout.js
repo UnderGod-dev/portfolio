@@ -20,7 +20,7 @@ export const metadata = {
         ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
         : process.env.VERCEL_URL
           ? `https://${process.env.VERCEL_URL}`
-          : "https://warithadekunle.com"),
+          : "https://adekunle.cloud"),
   ),
   title: "Adekunle — Cloud, DevOps & Observability",
   description:
@@ -32,7 +32,7 @@ export const metadata = {
     description:
       "Cloud architecture, DevOps, observability, and agentic AI. Practical blueprints for dependable infrastructure.",
     url: "/",
-    siteName: "Adekunle | WarithAdekunle.com",
+    siteName: "Adekunle | adekunle.cloud",
     type: "website",
     locale: "en_US",
   },

@@ -1,4 +1,4 @@
-# Adekunle — WarithAdekunle.com
+# Adekunle — adekunle.cloud
 
 A responsive portfolio built with Next.js App Router, React, and Tailwind CSS. Includes light and dark themes, persistent theme preference, a dedicated DevOps lifecycle section, an interactive architecture explorer, delivery approach, verified credential links, detailed engagement blueprints, and a server-backed contact form.
 
@@ -47,7 +47,7 @@ npx next lint --file src/app/page.js --file src/app/layout.js --file src/app/ope
 
 Import the existing repository, select the Next.js framework preset, and add the SMTP environment variables to the Vercel project. The standard build command is `npm run build`; no custom output directory is required. Set variables separately for Preview and Production as needed.
 
-When the domain is ready, add it in the Vercel project’s Domains settings and apply the DNS records Vercel provides. Set `SITE_URL` to the full canonical URL (including `https://`) and redeploy. Until the custom domain is ready, leave `SITE_URL` unset in Vercel: metadata uses the Vercel production hostname, then the current Vercel deployment hostname. Local builds fall back to `https://warithadekunle.com`. Set `SITE_URL=https://warithadekunle.com` when the domain is connected. DNS and hosting are configured separately when the domain is ready.
+When the domain is ready, add it in the Vercel project’s Domains settings and apply the DNS records Vercel provides. Set `SITE_URL` to the full canonical URL (including `https://`) and redeploy. Until the custom domain is ready, leave `SITE_URL` unset in Vercel: metadata uses the Vercel production hostname, then the current Vercel deployment hostname. Local builds fall back to `https://adekunle.cloud`. Set `SITE_URL=https://adekunle.cloud` when the domain is connected. DNS and hosting are configured separately when the domain is ready.
 
 ## Logo directions
 
