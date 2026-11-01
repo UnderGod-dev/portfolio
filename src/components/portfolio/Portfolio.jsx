@@ -451,7 +451,7 @@ function ContactForm({ service, onServiceChange }) {
           <input
             name="name"
             autoComplete="name"
-            placeholder="Alex Morgan"
+            placeholder="Your name"
             required
             minLength={2}
             maxLength={100}
@@ -463,7 +463,7 @@ function ContactForm({ service, onServiceChange }) {
             name="email"
             type="email"
             autoComplete="email"
-            placeholder="alex@company.com"
+            placeholder="Your email address"
             required
             maxLength={254}
           />
