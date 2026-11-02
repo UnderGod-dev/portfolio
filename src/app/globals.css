@@ -383,10 +383,11 @@ h1 > span {
   opacity: 0.5;
 }
 .hero-visual {
+  --hero-visual-ratio: 1.045;
   width: 100%;
   max-width: 510px;
   margin-left: auto;
-  aspect-ratio: 1 / 1.045;
+  aspect-ratio: 1 / var(--hero-visual-ratio);
   border: 1px solid var(--line);
   border-radius: 3px;
   background-image:
@@ -1541,9 +1542,37 @@ h1 > span {
   }
 }
 
-@media (min-width: 1600px) {
+/* Reserve room for the sticky header and credential row on desktop screens. */
+@media (min-width: 901px) {
+  .hero {
+    --hero-padding: clamp(20px, 3.5svh, 60px);
+    min-height: calc(100svh - 89px);
+    display: grid;
+    grid-template-rows: minmax(min-content, 1fr) auto;
+  }
   .hero-main {
-    padding-block: 95px;
+    padding-block: var(--hero-padding);
+  }
+  .hero h1 {
+    font-size: clamp(44px, min(4.65vw, 8svh), 72px);
+  }
+  .hero-eyebrow {
+    margin-bottom: clamp(18px, 3svh, 30px);
+  }
+  .hero-intro {
+    margin-top: clamp(18px, 3svh, 29px);
+  }
+  .hero-ctas {
+    margin-top: clamp(20px, 3.5svh, 30px);
+  }
+  .hero-location {
+    margin-top: clamp(20px, 4svh, 43px);
+  }
+  .hero-visual {
+    max-width: min(
+      510px,
+      max(320px, calc((100svh - 189px - 2 * var(--hero-padding)) / var(--hero-visual-ratio)))
+    );
   }
 }
 @media (max-width: 1150px) {
@@ -1582,7 +1611,7 @@ h1 > span {
     font-size: 5px;
   }
   .hero-visual {
-    aspect-ratio: 1 / 1.15;
+    --hero-visual-ratio: 1.15;
   }
   .journey-grid {
     gap: 75px;
