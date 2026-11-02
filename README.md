@@ -60,3 +60,13 @@ After editing the geometry or `activeLogoId`, regenerate the downloadable SVGs, 
 ```sh
 node scripts/export-brand-marks.mjs
 ```
+
+## Reusable brand kit
+
+`brand-assets/` preserves the original WA / Interlock identity and the current A / Flow A identity for use outside the website. It includes SVG masters, transparent PNGs, horizontal wordmarks, light/dark avatars, favicon formats, all nine original design studies, comparison boards, and source geometry. See `brand-assets/README.md` for colour values and usage notes.
+
+Regenerate it after changing the logo geometry:
+
+```sh
+node scripts/export-brand-kit.mjs
+```

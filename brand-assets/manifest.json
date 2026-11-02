@@ -1,0 +1,522 @@
+{
+  "identities": [
+    {
+      "id": "interlock",
+      "folder": "01-WA-Interlock",
+      "name": "Original WA / Interlock"
+    },
+    {
+      "id": "flow-a",
+      "folder": "02-A-Flow",
+      "name": "Current A / Flow A"
+    }
+  ],
+  "activeLogoId": "flow-a",
+  "files": [
+    {
+      "file": "01-WA-Interlock/Avatars/interlock-dark-1024.png",
+      "bytes": 48411,
+      "sha256": "bb70f2378b2c7008331e2c01b61b17c3029f43a4a314e0158e7ac1e3ebc1cd8d"
+    },
+    {
+      "file": "01-WA-Interlock/Avatars/interlock-dark.svg",
+      "bytes": 503,
+      "sha256": "2dcc7c62084c852cab6fd84e54a2eefe8c648c10cd376cc6ebd82401463fc286"
+    },
+    {
+      "file": "01-WA-Interlock/Avatars/interlock-light-1024.png",
+      "bytes": 47927,
+      "sha256": "e6ebf8c61d1ab8803a37b882992bdd5998aa1d83e41f85fe40f81fd07c7788d6"
+    },
+    {
+      "file": "01-WA-Interlock/Avatars/interlock-light.svg",
+      "bytes": 503,
+      "sha256": "51ff8fe0b235e832368fd73dde5b791e503f370116e3cd98279567b1bd4bce9d"
+    },
+    {
+      "file": "01-WA-Interlock/Icons/favicon.ico",
+      "bytes": 2420,
+      "sha256": "8ee0288c4fbe1ad0037a792dab76eaa712db4614cca93788646aa63ab418d7d4"
+    },
+    {
+      "file": "01-WA-Interlock/Icons/favicon.svg",
+      "bytes": 503,
+      "sha256": "2dcc7c62084c852cab6fd84e54a2eefe8c648c10cd376cc6ebd82401463fc286"
+    },
+    {
+      "file": "01-WA-Interlock/Icons/icon-16.png",
+      "bytes": 398,
+      "sha256": "3528ff6b703df59c6253ab516999beb6f9faecbd123c13f972f377ace324fa59"
+    },
+    {
+      "file": "01-WA-Interlock/Icons/icon-180.png",
+      "bytes": 4488,
+      "sha256": "e772a06fdfbf990557617ddeb15be3a403f04b8bf021ed703bacfb3f8d5b61f5"
+    },
+    {
+      "file": "01-WA-Interlock/Icons/icon-192.png",
+      "bytes": 4796,
+      "sha256": "76ac20904c7372b9cd110d5b1c7f88ddb31917283bc554a277c4afaf304cb8fb"
+    },
+    {
+      "file": "01-WA-Interlock/Icons/icon-32.png",
+      "bytes": 775,
+      "sha256": "150572e0bd29601169b4387fdba350e353f67307d2c8059639fafbece1b15f02"
+    },
+    {
+      "file": "01-WA-Interlock/Icons/icon-48.png",
+      "bytes": 1193,
+      "sha256": "e0d2144a256ef8ed727693de9cc3f2941eddb94aaeb3e14f0b3b03131b6da8c2"
+    },
+    {
+      "file": "01-WA-Interlock/Icons/icon-512.png",
+      "bytes": 17577,
+      "sha256": "fe47bf81cd7c0dc1e84fbcec5a1b3d5eb941e71f2b64b23269d9446c69e5965d"
+    },
+    {
+      "file": "01-WA-Interlock/PNG-transparent/interlock-black-2048.png",
+      "bytes": 47778,
+      "sha256": "bb7fbfad7635cb8d882d981f481f5965ae88a48ba7c32e2e0add6e3d48e4a458"
+    },
+    {
+      "file": "01-WA-Interlock/PNG-transparent/interlock-black-512.png",
+      "bytes": 6933,
+      "sha256": "092314f8cac1bceedb9fa1ae644c19cc62b7e0cd6190b66b809aa19787ae3869"
+    },
+    {
+      "file": "01-WA-Interlock/PNG-transparent/interlock-charcoal-2048.png",
+      "bytes": 56397,
+      "sha256": "687fffdff27d2224d1511d09a79d4bfe36a061232ce3f845a057e8b75f61a424"
+    },
+    {
+      "file": "01-WA-Interlock/PNG-transparent/interlock-charcoal-512.png",
+      "bytes": 8885,
+      "sha256": "ba3d43f3a82601589647f91916c6450c7e7420fa9c4cf52558dde74a6af980ab"
+    },
+    {
+      "file": "01-WA-Interlock/PNG-transparent/interlock-forest-2048.png",
+      "bytes": 57038,
+      "sha256": "dc100e973bdf94977d608b78f986bed41f267c94a809e2f15b15abcb91652f5c"
+    },
+    {
+      "file": "01-WA-Interlock/PNG-transparent/interlock-forest-512.png",
+      "bytes": 8969,
+      "sha256": "956f732b322eae14bfca05fc7720974174e3164871e14139e8176ccab72020a6"
+    },
+    {
+      "file": "01-WA-Interlock/PNG-transparent/interlock-ivory-2048.png",
+      "bytes": 57184,
+      "sha256": "849912312760bc6d9d9e441a394db6bd40c9523b79d8e3e71bcff6ca91176063"
+    },
+    {
+      "file": "01-WA-Interlock/PNG-transparent/interlock-ivory-512.png",
+      "bytes": 9064,
+      "sha256": "c9695c3b7a291d5ad200a5007776dd8587c20a32b978c28c5b791a6d529cb5f1"
+    },
+    {
+      "file": "01-WA-Interlock/PNG-transparent/interlock-white-2048.png",
+      "bytes": 44407,
+      "sha256": "4d04177ff64b36a7fde9a15c6c39671366dc18bca46bd184350d303a041b926e"
+    },
+    {
+      "file": "01-WA-Interlock/PNG-transparent/interlock-white-512.png",
+      "bytes": 7105,
+      "sha256": "5d7b19d522af48bd2e10af7a45bc2b2efc29f4de18e5c460c0ae09ee146e9acf"
+    },
+    {
+      "file": "01-WA-Interlock/SVG/interlock-black.svg",
+      "bytes": 376,
+      "sha256": "f21efdac4170a06ef710925c2916a919dab78c2259de390a8a85d87714b30240"
+    },
+    {
+      "file": "01-WA-Interlock/SVG/interlock-charcoal.svg",
+      "bytes": 376,
+      "sha256": "ff716ce1e32d270175f58afee31e190dcd5eca78ba5f222ec4254f00e827c8d2"
+    },
+    {
+      "file": "01-WA-Interlock/SVG/interlock-forest.svg",
+      "bytes": 376,
+      "sha256": "76a5c19b9ca763b4e6cc65bef617031e087789db52212548be106154555d4f54"
+    },
+    {
+      "file": "01-WA-Interlock/SVG/interlock-ivory.svg",
+      "bytes": 376,
+      "sha256": "9a7c9a75591b9fe5e9e62838b23b7b15bcc2b4f8d6af98fdc4c3cb3e37de5ff3"
+    },
+    {
+      "file": "01-WA-Interlock/SVG/interlock-white.svg",
+      "bytes": 376,
+      "sha256": "200d00d5a03c73993233c6857716d3557c283bcffbbcb105f8ad4c69fe9a502f"
+    },
+    {
+      "file": "01-WA-Interlock/Wordmarks/interlock-black-2048.png",
+      "bytes": 24541,
+      "sha256": "063a8cb85e8ae4997fc6021d1a68b744a2b3cb938734911b2f5c8cd332871360"
+    },
+    {
+      "file": "01-WA-Interlock/Wordmarks/interlock-black.svg",
+      "bytes": 611,
+      "sha256": "9f2cd8b87ba5f9336409f76db267e8de884332a03ec60f24a091cb8246b00733"
+    },
+    {
+      "file": "01-WA-Interlock/Wordmarks/interlock-charcoal-2048.png",
+      "bytes": 31012,
+      "sha256": "b36db1c328707a13c206a7ae4101ee10f9811f9deaf116a1f6d25449118172ae"
+    },
+    {
+      "file": "01-WA-Interlock/Wordmarks/interlock-charcoal.svg",
+      "bytes": 611,
+      "sha256": "f32472ebe8b7ee82a9f0664ec27e3bd503f40b0cfd2f309e973b9a9177ab269b"
+    },
+    {
+      "file": "01-WA-Interlock/Wordmarks/interlock-forest-2048.png",
+      "bytes": 31332,
+      "sha256": "743f097997374960f844827e7dea3a3b9f92fa9289ccf58f1817f8feb4ac5c28"
+    },
+    {
+      "file": "01-WA-Interlock/Wordmarks/interlock-forest.svg",
+      "bytes": 611,
+      "sha256": "22cb5dbfccc1e8f5e73c75e278b16e6217b035a02858505b0dd3c572fe4644d8"
+    },
+    {
+      "file": "01-WA-Interlock/Wordmarks/interlock-ivory-2048.png",
+      "bytes": 31519,
+      "sha256": "d8f85b2e6c8886b41d95f94f28bc8325c3a0533e69c08d6be14a8084db9be229"
+    },
+    {
+      "file": "01-WA-Interlock/Wordmarks/interlock-ivory.svg",
+      "bytes": 611,
+      "sha256": "4dad2b257b8e0ae03d1cd270db15d84b9626d10bde78e417e188c08f0e863cda"
+    },
+    {
+      "file": "01-WA-Interlock/Wordmarks/interlock-white-2048.png",
+      "bytes": 25580,
+      "sha256": "64cc54fdf469c30f5294d170221a78315235152f8e5dce937343e5e842d9878f"
+    },
+    {
+      "file": "01-WA-Interlock/Wordmarks/interlock-white.svg",
+      "bytes": 611,
+      "sha256": "a319ac048e20222a4844212b75527810904a69c56b99549bfdab96fc9ab763c1"
+    },
+    {
+      "file": "02-A-Flow/Avatars/flow-a-dark-1024.png",
+      "bytes": 50407,
+      "sha256": "3a7edf1c470efb9e240e9673c0fb38acad4f6a3d6c7d91b5d994076a75b13974"
+    },
+    {
+      "file": "02-A-Flow/Avatars/flow-a-dark.svg",
+      "bytes": 437,
+      "sha256": "b1ca977e83b9f662e74d6b1d62d3f998067788a70101c4eeef5afefd67c88f8f"
+    },
+    {
+      "file": "02-A-Flow/Avatars/flow-a-light-1024.png",
+      "bytes": 49927,
+      "sha256": "162095afd6798501a8588a9a437dab264fa196debc12365029dd9cb51f5a2154"
+    },
+    {
+      "file": "02-A-Flow/Avatars/flow-a-light.svg",
+      "bytes": 437,
+      "sha256": "28ea7682d2af55f8fbda85348fd3f9df2be1337244a1f4e6c07f9fd28fe6b957"
+    },
+    {
+      "file": "02-A-Flow/Icons/favicon.ico",
+      "bytes": 2424,
+      "sha256": "78cb1897f0d16c55447423b426a206157412b851def615fe990e4e57040dc782"
+    },
+    {
+      "file": "02-A-Flow/Icons/favicon.svg",
+      "bytes": 437,
+      "sha256": "b1ca977e83b9f662e74d6b1d62d3f998067788a70101c4eeef5afefd67c88f8f"
+    },
+    {
+      "file": "02-A-Flow/Icons/icon-16.png",
+      "bytes": 403,
+      "sha256": "d7d2b1fe7514007d5f2ca61995690ece4cfcc2bcc057304647bb2a0838c0649f"
+    },
+    {
+      "file": "02-A-Flow/Icons/icon-180.png",
+      "bytes": 4820,
+      "sha256": "3a4b37d565a55701c132cdb955e906c668bfd7d97620c1d93bf13234f96b0716"
+    },
+    {
+      "file": "02-A-Flow/Icons/icon-192.png",
+      "bytes": 5204,
+      "sha256": "8235351465a52e3e6cf08d8d4c25eaf33d1ce8c4d5230bb2c0ed30ab4313b0be"
+    },
+    {
+      "file": "02-A-Flow/Icons/icon-32.png",
+      "bytes": 778,
+      "sha256": "266c359115ca26853cb3fdc31f49a36ca9b14d1022b039838a1573788a4aa932"
+    },
+    {
+      "file": "02-A-Flow/Icons/icon-48.png",
+      "bytes": 1189,
+      "sha256": "7b042e52e3a7f4421b755dcc3fd3c2915367a48c8e53a316bbd5d54e4b8481dc"
+    },
+    {
+      "file": "02-A-Flow/Icons/icon-512.png",
+      "bytes": 18729,
+      "sha256": "f9542abb3ebe19f647343281aa982e5aec582cc83da77dc7e6d805e417f5bd45"
+    },
+    {
+      "file": "02-A-Flow/PNG-transparent/flow-a-black-2048.png",
+      "bytes": 50187,
+      "sha256": "d47a1bfd785ad2dee9aad13947ae7509c45771f4f83322cae083e47e8dff2a3e"
+    },
+    {
+      "file": "02-A-Flow/PNG-transparent/flow-a-black-512.png",
+      "bytes": 7478,
+      "sha256": "90d78f296777ad1307c80947737af36432e9a6c5a77eb471d236936206116b00"
+    },
+    {
+      "file": "02-A-Flow/PNG-transparent/flow-a-charcoal-2048.png",
+      "bytes": 60616,
+      "sha256": "ef6c656efad7affdce6157e245beb113fede68a8500f1eb584b65f81a5906924"
+    },
+    {
+      "file": "02-A-Flow/PNG-transparent/flow-a-charcoal-512.png",
+      "bytes": 9654,
+      "sha256": "8538731903b8233a047bfefbdfed06855e7380d4bf5715c57769c616b9483c46"
+    },
+    {
+      "file": "02-A-Flow/PNG-transparent/flow-a-forest-2048.png",
+      "bytes": 61566,
+      "sha256": "729e9dec522016e2ae17067bdeb835a01fd8fc042bf2a65071d72787263447b5"
+    },
+    {
+      "file": "02-A-Flow/PNG-transparent/flow-a-forest-512.png",
+      "bytes": 9858,
+      "sha256": "6869edd727da599e75ca078f652dfff8ab2279f5163f1d51c9bfa201bb2c1bbf"
+    },
+    {
+      "file": "02-A-Flow/PNG-transparent/flow-a-ivory-2048.png",
+      "bytes": 61863,
+      "sha256": "6b1852b8fd1918a61ca9fe672012d547386cdb876d95a2f9b633d86d57dd6d50"
+    },
+    {
+      "file": "02-A-Flow/PNG-transparent/flow-a-ivory-512.png",
+      "bytes": 9918,
+      "sha256": "bb3e4fed73076e9a8969007fed140f782935094517b4f8eff0888041e0aa0d98"
+    },
+    {
+      "file": "02-A-Flow/PNG-transparent/flow-a-white-2048.png",
+      "bytes": 45955,
+      "sha256": "34c93ab9935682d55499909de8a879b5f72edae7b7964e5d3edcd2b7c30e3445"
+    },
+    {
+      "file": "02-A-Flow/PNG-transparent/flow-a-white-512.png",
+      "bytes": 7694,
+      "sha256": "d1167117d3e3a318a1da9c4dd2b49932550d21a268879cffe9b80a18c81a2287"
+    },
+    {
+      "file": "02-A-Flow/SVG/flow-a-black.svg",
+      "bytes": 307,
+      "sha256": "5f32b6334d892bb2540586770f1bfc28b8a1af5dba245438b354021a3387f783"
+    },
+    {
+      "file": "02-A-Flow/SVG/flow-a-charcoal.svg",
+      "bytes": 307,
+      "sha256": "e4a4d0dd1e2593f60d168cac74a43c46c8c9eabebecca9fe2849a28f7f40e2b8"
+    },
+    {
+      "file": "02-A-Flow/SVG/flow-a-forest.svg",
+      "bytes": 307,
+      "sha256": "aa5eef6aba62ac6074237ad754d0b7a3e52c70dd228797eb64b2a88e48ec9f79"
+    },
+    {
+      "file": "02-A-Flow/SVG/flow-a-ivory.svg",
+      "bytes": 307,
+      "sha256": "e9965f53978f9e7a28f9bf04ef0754c815b32d85d3e5ade0857a80264f1ebe13"
+    },
+    {
+      "file": "02-A-Flow/SVG/flow-a-white.svg",
+      "bytes": 307,
+      "sha256": "4fd4cc7edc718522428952ba243f18861d682d617cc85d25035c7b6dbd7fa70e"
+    },
+    {
+      "file": "02-A-Flow/Wordmarks/flow-a-black-2048.png",
+      "bytes": 30460,
+      "sha256": "4ad499f30113152cf196b040e13d5b1fc2af13514ceab49d319a93ebed2b79c4"
+    },
+    {
+      "file": "02-A-Flow/Wordmarks/flow-a-black.svg",
+      "bytes": 543,
+      "sha256": "70a884a473462d4dfb79e071593bacaa6edb4407d351732e3a998e30e3c6d0b4"
+    },
+    {
+      "file": "02-A-Flow/Wordmarks/flow-a-charcoal-2048.png",
+      "bytes": 38219,
+      "sha256": "2b5c8cf6899e626ffa7bda59c22c4c1d4b54c056cf7809f33bdf340e998a60bd"
+    },
+    {
+      "file": "02-A-Flow/Wordmarks/flow-a-charcoal.svg",
+      "bytes": 543,
+      "sha256": "3dd131227ce5c25b128cca32adcd1f0fb2dc2f294ed0fb2b8eca6ccbb5b28ea3"
+    },
+    {
+      "file": "02-A-Flow/Wordmarks/flow-a-forest-2048.png",
+      "bytes": 38669,
+      "sha256": "b11891d338853966e4ee58bc85fc104e0b6dcd853d3f042cff58811506695f1d"
+    },
+    {
+      "file": "02-A-Flow/Wordmarks/flow-a-forest.svg",
+      "bytes": 543,
+      "sha256": "8a5af7b9daa798343ab0e3b75a44edc9a8916a7f36468046bc02fd4b930921f7"
+    },
+    {
+      "file": "02-A-Flow/Wordmarks/flow-a-ivory-2048.png",
+      "bytes": 38887,
+      "sha256": "0ac3cc2e7d2f1d8c781d453a980f072893af1015b967393e9376a946e8f89911"
+    },
+    {
+      "file": "02-A-Flow/Wordmarks/flow-a-ivory.svg",
+      "bytes": 543,
+      "sha256": "f766a6d8c1b4bd5ab5f70e37b697aa188d70e7cf9b458d3e732807ddb55d6081"
+    },
+    {
+      "file": "02-A-Flow/Wordmarks/flow-a-white-2048.png",
+      "bytes": 31381,
+      "sha256": "cf32375bfcccb5b60849add7e878513922f406d682b4b750c8e2c764c7435952"
+    },
+    {
+      "file": "02-A-Flow/Wordmarks/flow-a-white.svg",
+      "bytes": 543,
+      "sha256": "5b41b84b400a4f2bb89c574abf7d2a74240c6b87c4bf1cef1ff28878d9ca2017"
+    },
+    {
+      "file": "03-Concept-archive/aperture-a-forest.svg",
+      "bytes": 297,
+      "sha256": "456a437046f4cb458bba24d11f70eb8a74f4a9b490b3e63afa1bd6ce093cd77f"
+    },
+    {
+      "file": "03-Concept-archive/aperture-a-ivory.svg",
+      "bytes": 297,
+      "sha256": "520245d058a595050124ab21c7b2df59a2293c91dd0a021168d54b039aa54b49"
+    },
+    {
+      "file": "03-Concept-archive/axis-forest.svg",
+      "bytes": 408,
+      "sha256": "acb07de2521868d163da4c502da54c27418ac95f3489a8d5d166808d17b4cd0f"
+    },
+    {
+      "file": "03-Concept-archive/axis-ivory.svg",
+      "bytes": 408,
+      "sha256": "a0dc832e9eadc812399aaf48ac0c896890e82f69969decfb4af8b631f76b3f32"
+    },
+    {
+      "file": "03-Concept-archive/counterpoint-forest.svg",
+      "bytes": 414,
+      "sha256": "1c15e5e63db80867378d8754059583f827551a4625d9286b80441f35d15c8a6f"
+    },
+    {
+      "file": "03-Concept-archive/counterpoint-ivory.svg",
+      "bytes": 414,
+      "sha256": "85c2c474ae2e6de6186adb0d83ad9aabd9df8445a737059eebf1afb5411aa564"
+    },
+    {
+      "file": "03-Concept-archive/flow-a-forest.svg",
+      "bytes": 307,
+      "sha256": "aa5eef6aba62ac6074237ad754d0b7a3e52c70dd228797eb64b2a88e48ec9f79"
+    },
+    {
+      "file": "03-Concept-archive/flow-a-ivory.svg",
+      "bytes": 307,
+      "sha256": "e9965f53978f9e7a28f9bf04ef0754c815b32d85d3e5ade0857a80264f1ebe13"
+    },
+    {
+      "file": "03-Concept-archive/frame-forest.svg",
+      "bytes": 391,
+      "sha256": "06d1f62541702464752134fa6d889e90e32810367d93b562dfb5c250b922d58f"
+    },
+    {
+      "file": "03-Concept-archive/frame-ivory.svg",
+      "bytes": 391,
+      "sha256": "556b06dba9023b2b0d994fbeb30161d61e15e615f282dbb185a74ab2becba14f"
+    },
+    {
+      "file": "03-Concept-archive/interlock-forest.svg",
+      "bytes": 376,
+      "sha256": "76a5c19b9ca763b4e6cc65bef617031e087789db52212548be106154555d4f54"
+    },
+    {
+      "file": "03-Concept-archive/interlock-ivory.svg",
+      "bytes": 376,
+      "sha256": "9a7c9a75591b9fe5e9e62838b23b7b15bcc2b4f8d6af98fdc4c3cb3e37de5ff3"
+    },
+    {
+      "file": "03-Concept-archive/ribbon-forest.svg",
+      "bytes": 289,
+      "sha256": "6435d7645ad0d5293c73bbffbf5b5504db6fe340c595e95377873bfd32384995"
+    },
+    {
+      "file": "03-Concept-archive/ribbon-ivory.svg",
+      "bytes": 289,
+      "sha256": "6b005a7a721e391c2ec90d5ebcc72502cb216ede645216091f297a508846d9d8"
+    },
+    {
+      "file": "03-Concept-archive/signal-forest.svg",
+      "bytes": 428,
+      "sha256": "760bdbe7e59c176c57d83496d1672a7a68d8a7b5d2415322d82cb717db1c0035"
+    },
+    {
+      "file": "03-Concept-archive/signal-ivory.svg",
+      "bytes": 428,
+      "sha256": "c2cf612238441b170ecfeb1f595ab2e0291fff002e16120e51ddbe22fa9c9f3f"
+    },
+    {
+      "file": "03-Concept-archive/structural-a-forest.svg",
+      "bytes": 374,
+      "sha256": "812157ee37c54700e2b0d8b8365c488646732beb41f35f114afdde851495450a"
+    },
+    {
+      "file": "03-Concept-archive/structural-a-ivory.svg",
+      "bytes": 374,
+      "sha256": "2334fcba0d1b90ee05214a36388f3fa854f00b397ecffeddf44848d55b572f13"
+    },
+    {
+      "file": "04-Comparison-sheets/adekunle-directions.png",
+      "bytes": 178074,
+      "sha256": "018044f4741d722ff95e7560386059be649ab151808c7495a7f3b600039e0845"
+    },
+    {
+      "file": "04-Comparison-sheets/adekunle-directions.svg",
+      "bytes": 11702,
+      "sha256": "24ec2c228545b3f46d41a2d01269a2db027e05eb70b98f3e02b188d3458113d1"
+    },
+    {
+      "file": "04-Comparison-sheets/wa-directions.png",
+      "bytes": 174397,
+      "sha256": "777e76956009d31a12d32227f05c125ee3b85950d0862006e0ddcc4d3b792f29"
+    },
+    {
+      "file": "04-Comparison-sheets/wa-directions.svg",
+      "bytes": 8008,
+      "sha256": "52fc591f2459928d2975da59d21e888f0c20307975198b71c80d26172654418d"
+    },
+    {
+      "file": "05-Source/brand.js",
+      "bytes": 7261,
+      "sha256": "385dd1bfd398028f27a6f79263df3be3e41f2134069bba8708f5553de9b762af"
+    },
+    {
+      "file": "05-Source/geometry.json",
+      "bytes": 8091,
+      "sha256": "294571a165c5fc18718158e4ddeaa1a9087adbb2dd66389d2b697e5b6149db3a"
+    },
+    {
+      "file": "Brand-kit-overview.png",
+      "bytes": 143421,
+      "sha256": "595f1b5baa67a67ee4da946ae60a2783d832a646f7b22dcd0d2ee50adc799412"
+    },
+    {
+      "file": "Brand-kit-overview.svg",
+      "bytes": 3931,
+      "sha256": "c13cf0973284925e4f28996ad36c76d5970a74e96d86413336982255da2f195b"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2357,
+      "sha256": "7526ac7fc55756f91d72589e7b19622792655942169416a2801f582aaadda1d9"
+    }
+  ]
+}
