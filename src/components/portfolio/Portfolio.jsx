@@ -139,7 +139,7 @@ function Header() {
     <header className="site-header">
       <div className="header-inner wrap">
         <a className="wordmark" href="#home" aria-label="Adekunle, back to top">
-          <BrandMark className="wordmark-icon" viewBox="6 10 120 84" />
+          <BrandMark className="wordmark-icon" />
           <span className="wordmark-name">
             ADEKUNLE
             <br />
@@ -217,7 +217,7 @@ function HeroVisual() {
         <div className="orbit-axis axis-two" />
         <div className="orbital-center">
           <span className="core-symbol">
-            <BrandMark viewBox="6 10 120 84" />
+            <BrandMark />
           </span>
           <span className="mono">BUILD · CONNECT · EVOLVE</span>
         </div>
@@ -987,7 +987,7 @@ export default function Portfolio() {
       </main>
       <footer className="site-footer wrap">
         <a href="#home" className="footer-name">
-          <BrandMark className="footer-mark" viewBox="6 10 120 84" />
+          <BrandMark className="footer-mark" />
           Adekunle<span>.</span>
         </a>
         <p className="mono">ADEKUNLE.CLOUD / BUILT WITH INTENT.</p>

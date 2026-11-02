@@ -1,6 +1,49 @@
 // The selected identity and its original studies share one geometry source.
-export const activeLogoId = "interlock";
-export const logoConcepts = [
+export const activeLogoId = "flow-a";
+export const adekunleConcepts = [
+  {
+    id: "structural-a",
+    number: "01",
+    name: "Structural A",
+    character: "Grounded · Precise · Open",
+    idea: "Two balanced supports rise into a softened apex. A floating crossbar leaves a little breathing room: a foundation with an open connection at its centre.",
+    recommendation: "My preferred direction. The strongest link to architecture and infrastructure, with enough simplicity to become a recognisable personal signature.",
+    viewBox: "0 0 104 112",
+    family: "a",
+    paths: [
+      { d: "M18 94 48.5 22Q52 14 55.5 22L86 94", fill: "none", stroke: "currentColor", strokeWidth: 11, strokeLinecap: "round", strokeLinejoin: "round" },
+      { d: "M44 68H60", fill: "none", stroke: "currentColor", strokeWidth: 10, strokeLinecap: "round" },
+    ],
+  },
+  {
+    id: "flow-a",
+    number: "02",
+    name: "Flow A",
+    character: "Fluid · Connected · Human",
+    idea: "One uninterrupted line climbs, turns, and folds back into the A. The returning stroke becomes its crossbar, suggesting a delivery loop and continuous improvement.",
+    recommendation: "The most expressive option. A little more personal and fluid, especially suited to the automation and agentic AI side of your work.",
+    viewBox: "0 0 104 112",
+    family: "a",
+    paths: [
+      { d: "M18 94 48.5 22Q52 14 55.5 22L86 90Q89 98 80 98H39Q30 98 34 90L44 69H65", fill: "none", stroke: "currentColor", strokeWidth: 9, strokeLinecap: "round", strokeLinejoin: "round" },
+    ],
+  },
+  {
+    id: "aperture-a",
+    number: "03",
+    name: "Aperture A",
+    character: "Compact · Assured · Distinctive",
+    idea: "The A is carved out of a solid, chamfered tile. Its open legs and precise inner triangle use the background as part of the mark: clarity emerging from a complex system.",
+    recommendation: "The boldest emblem. Strong for an app icon, social avatar, or presentation cover; more formal and contained than the other two directions.",
+    viewBox: "0 0 104 112",
+    family: "a",
+    paths: [
+      { d: "M26 10H78L96 28V84L78 102H26L8 84V28ZM22 84H36L41.5 70H62.5L68 84H82L58 28H46ZM46 58H58L52 42Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" },
+    ],
+  },
+];
+
+export const legacyLogoConcepts = [
   {
     id: "interlock",
     number: "01",
@@ -157,3 +200,5 @@ export const logoConcepts = [
     ],
   },
 ];
+
+export const logoConcepts = [...legacyLogoConcepts, ...adekunleConcepts];

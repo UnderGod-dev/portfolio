@@ -247,8 +247,8 @@ h2 {
 }
 .wordmark-icon {
   display: block;
-  width: 56px;
-  height: 42px;
+  width: 42px;
+  height: 46px;
   color: var(--ink);
 }
 .wordmark-name {
@@ -476,8 +476,8 @@ h1 > span {
 }
 .core-symbol {
   display: block;
-  width: 70%;
-  max-width: 150px;
+  width: 62%;
+  max-width: 126px;
   line-height: 0;
   margin: 0;
 }
@@ -2481,19 +2481,19 @@ h1 > span {
 }
 .footer-mark {
   display: block;
-  width: 32px;
-  height: 24px;
+  width: 28px;
+  height: 30px;
   margin-right: 3px;
   color: var(--ink);
 }
 @media (max-width: 640px) {
   .wordmark-icon {
-    width: 48px;
-    height: 36px;
+    width: 36px;
+    height: 40px;
   }
   .footer-mark {
-    width: 28px;
-    height: 21px;
+    width: 24px;
+    height: 26px;
   }
 }
 

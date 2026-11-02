@@ -30,12 +30,11 @@ export default function OpenGraphImage() {
         >
           <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
             <BrandMark
-              width={74}
-              height={52}
-              viewBox="6 10 120 84"
+              width={50}
+              height={54}
               color="#edf0e5"
             />
-            <span>ADEKUNLE</span>
+            <span>adekunle.cloud</span>
           </div>
           <span style={{ color: "#b5d58b" }}>
             CLOUD / DEVOPS / OBSERVABILITY

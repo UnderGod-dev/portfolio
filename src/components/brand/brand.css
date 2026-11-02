@@ -78,6 +78,8 @@
   gap: 22px;
 }
 .brand-option {
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--line);
   border-radius: 4px;
   overflow: hidden;
@@ -142,6 +144,7 @@
   stroke-width: initial;
 }
 .brand-option-footer {
+  flex: 1;
   padding: 18px 17px 20px;
 }
 .brand-option-footer > strong {
@@ -156,6 +159,14 @@
   color: var(--muted);
   font-size: 10px;
   line-height: 1.6;
+}
+.brand-option-footer .brand-pick {
+  display: inline-block;
+  color: var(--accent);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 8px;
+  letter-spacing: .1em;
+  margin-top: 14px;
 }
 .brand-selected {
   margin-top: 80px;
@@ -282,12 +293,13 @@
   stroke-width: initial;
 }
 .brand-lockup > span {
-  font-size: 11px;
-  letter-spacing: 0.15em;
+  font-size: 22px;
+  letter-spacing: -0.05em;
   font-weight: 500;
   border-left: 1px solid #4d5b4e;
   padding-left: 18px;
 }
+.brand-domain { opacity: .6; font-weight: 400; }
 .brand-lockup small {
   display: block;
   font-size: 7px;
@@ -329,8 +341,30 @@
   letter-spacing: -0.05em;
 }
 .brand-large-lockup strong > span {
-  color: #527341;
+  color: #687e5d;
+  font-weight: 400;
 }
+.brand-favicon {
+  background: #23372b;
+  color: #e9efdd;
+  border-radius: 23%;
+}
+.brand-wordmark-download { display: flex; align-items: center; gap: 12px; font-size: 11px; }
+.brand-reference {
+  margin-top: 56px;
+  border-top: 1px solid var(--line);
+  padding-top: 32px;
+  display: grid;
+  grid-template-columns: 92px 1fr auto;
+  align-items: center;
+  gap: 24px;
+}
+.brand-reference-mark { padding: 16px; border-radius: 4px; }
+.brand-reference-mark svg { width: 100%; height: 60px; }
+.brand-reference .eyebrow { font-size: 8px; }
+.brand-reference h2 { font-size: 19px; letter-spacing: -.04em; margin-top: 8px; }
+.brand-reference p:last-child { font-size: 12px; line-height: 1.8; color: var(--muted); max-width: 450px; margin-top: 8px; }
+.brand-reference > a { display: flex; align-items: center; gap: 12px; font-size: 11px; }
 .brand-large-lockup div > span {
   display: block;
   margin-top: 10px;
@@ -439,9 +473,13 @@
     text-align: right;
   }
   .brand-options {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 15px;
   }
+  .brand-option-pair > div { aspect-ratio: 1.5; }
+  .brand-option-pair svg { width: 60%; height: 75%; }
+  .brand-reference { grid-template-columns: 75px 1fr; gap: 18px; }
+  .brand-reference > a { grid-column: 1 / -1; }
   .brand-option-meta {
     padding: 10px;
     gap: 6px;
@@ -502,7 +540,7 @@
   }
   .brand-lockup > span {
     padding-left: 14px;
-    font-size: 10px;
+    font-size: 20px;
   }
   .brand-size-row {
     padding: 25px 20px;
@@ -512,7 +550,7 @@
     gap: 14px;
   }
   .brand-large-lockup strong {
-    font-size: 29px;
+    font-size: clamp(22px, 6vw, 29px);
   }
   .brand-large-lockup > svg {
     width: 65px;

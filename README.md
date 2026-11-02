@@ -53,9 +53,9 @@ Add `adekunle.cloud` in Netlify Domain management and apply the exact DNS record
 
 ## Logo directions
 
-Open `/brand` to compare the six WA monogram studies in both palettes and at header/favicon sizes. Interlock is the selected identity and appears in the header, hero, footer, favicon, and social sharing image. The remaining studies stay available for comparison. Geometry and design notes live in `src/data/brand.js`; the preview uses `src/components/brand/BrandMark.jsx`.
+Flow A is the selected identity for adekunle.cloud and appears in the header, hero, footer, favicon, and social sharing image. Open `/brand` to explore its light/dark treatments, wordmark, SVG downloads, and favicon previews alongside the Structural A and Aperture A studies. The gallery keeps the previous Interlock WA as a reference. Geometry and design notes live in `src/data/brand.js`; the preview uses `src/components/brand/BrandMark.jsx`. The original six WA studies remain exported in `public/brand/wa-directions.svg`.
 
-After editing the geometry or `activeLogoId`, regenerate the downloadable SVGs, canonical light/dark logos, favicon, and vector comparison sheet:
+After editing the geometry or `activeLogoId`, regenerate the downloadable SVGs, canonical light/dark logos, favicon, and vector comparison sheets:
 
 ```sh
 node scripts/export-brand-marks.mjs
